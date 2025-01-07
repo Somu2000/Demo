@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Page</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    /* Welcome Container */
+    .welcome-container {
+      text-align: center;
+      padding: 30px;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Heading Style */
+    .welcome-container h1 {
+      font-size: 3rem;
+      margin: 0 0 10px;
+    }
+
+    /* Paragraph Style */
+    .welcome-container p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    /* Keyframes for Animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <h1>Welcome to Our Website! Project Demo</h1>
+    <p>Your journey to awesome begins here 🌟....</p>
+  </div>
+</body>
+</html>
